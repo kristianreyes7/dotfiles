@@ -7,3 +7,5 @@ tar xvzf nvim.tgz
 sudo cp -r nvim-linux64/bin/* /usr/local/bin/
 sudo cp -r nvim-linux64/lib/* /usr/local/lib/
 sudo cp -r nvim-linux64/share/* /usr/local/share/
+
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
